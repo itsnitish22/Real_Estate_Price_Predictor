@@ -5,8 +5,8 @@ import { Feather } from '@expo/vector-icons';
 import logo from './assets/logo.png';
 
 const UselessTextInput = () => {
-    const urlGET = 'http://192.168.137.1:5000/get_location_names';
-    const urlPOST = "http://192.168.137.1:5000/predict_home_price";
+    const urlGET = 'http://<your ip4v address>:5000/get_location_names';
+    const urlPOST = "http://<your ip4v address>:5000/predict_home_price";
     const [area, setArea] = useState('')
     const [location, setLocation] = useState('')
     const [bath, setBath] = useState(0)
